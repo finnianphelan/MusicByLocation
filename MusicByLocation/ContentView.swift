@@ -8,15 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+	@StateObject private var locationHandler = LocationHandler()
+	
+	var body: some View {
+		VStack {
+			Text(locationHandler.lastKnownLocation)
+				.padding()
+			Spacer()
+			Button("Find Music", action: {
+				locationHandler.requestLocation()
+			})
+		}.onAppear(perform: {
+			locationHandler.requestAuthorisation()
+		})
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {

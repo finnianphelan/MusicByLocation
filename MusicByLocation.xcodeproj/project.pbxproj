@@ -11,6 +11,7 @@
 		76161D822B970E1C009C8CD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76161D812B970E1C009C8CD6 /* ContentView.swift */; };
 		76161D842B970E1D009C8CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76161D832B970E1D009C8CD6 /* Assets.xcassets */; };
 		76161D872B970E1D009C8CD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76161D862B970E1D009C8CD6 /* Preview Assets.xcassets */; };
+		76161D8E2B970E92009C8CD6 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76161D8D2B970E92009C8CD6 /* LocationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		76161D812B970E1C009C8CD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76161D832B970E1D009C8CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76161D862B970E1D009C8CD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76161D8D2B970E92009C8CD6 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				76161D812B970E1C009C8CD6 /* ContentView.swift */,
 				76161D832B970E1D009C8CD6 /* Assets.xcassets */,
 				76161D852B970E1D009C8CD6 /* Preview Content */,
+				76161D8D2B970E92009C8CD6 /* LocationHandler.swift */,
 			);
 			path = MusicByLocation;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76161D8E2B970E92009C8CD6 /* LocationHandler.swift in Sources */,
 				76161D822B970E1C009C8CD6 /* ContentView.swift in Sources */,
 				76161D802B970E1C009C8CD6 /* MusicByLocationApp.swift in Sources */,
 			);
